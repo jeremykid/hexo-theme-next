@@ -6,7 +6,7 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "Weijie Sun"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -30,7 +30,7 @@ canonical: true
 menu:
   home: /
   #categories: /categories
-  #about: /about
+  about: /about
   archives: /archives
   tags: /tags
   #commonweal: /404.html
@@ -59,8 +59,8 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
-#scheme: Mist
+#scheme: Muse
+scheme: Mist
 #scheme: Pisces
 
 
@@ -141,7 +141,7 @@ social_icons:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-#avatar:
+avatar: http://www.swshipin.com/uploads/allimg/160704/103Q94615-0.jpg
 
 
 # Table Of Contents in the Sidebar
@@ -169,8 +169,8 @@ sidebar:
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggler.
-  display: post
-  #display: always
+  # display: post
+  display: always
   #display: hide
   #display: remove
 
@@ -241,10 +241,10 @@ mathjax:
 #baidu_analytics:
 
 # Duoshuo ShortName
-#duoshuo_shortname:
+#duoshuo_shortname: jeremykidgithub
 
 # Disqus
-#disqus_shortname:
+disqus_shortname: weijiesun
 
 # Baidu Share
 # Available value:
@@ -265,7 +265,7 @@ mathjax:
 
 
 # Google Analytics
-#google_analytics:
+google_analytics: UA-81011440-1
 
 # CNZZ count
 #cnzz_siteid:
@@ -274,28 +274,28 @@ mathjax:
 # Make duoshuo show UA
 # user_id must NOT be null when admin_enable is true!
 # you can visit http://dev.duoshuo.com get duoshuo user id.
-duoshuo_info:
-  ua_enable: true
-  admin_enable: false
-  user_id: 0
+# duoshuo_info:
+#   ua_enable: true
+#   admin_enable: false
+#   user_id: 0
   #admin_nickname: Author
 
 
 # Facebook SDK Support.
 # https://github.com/iissnan/hexo-theme-next/pull/410
 facebook_sdk:
-  enable: false
-  app_id:       #<app_id>
-  fb_admin:     #<user_id>
-  like_button:  #true
-  webmaster:    #true
+  enable: true
+  app_id: '512389235621182'
+  fb_admin: 100004264801048
+  like_button: true
+  webmaster: true
 
 # Facebook comments plugin
 # This plugin depends on Facebook SDK.
 # If facebook_sdk.enable is false, Facebook comments plugin is unavailable.
-facebook_comments_plugin:
-  enable: false
-  num_of_posts: 10
+# facebook_comments_plugin:
+#   enable: false
+#   num_of_posts: 10
 
 
 # Show number of visitors to each article.
